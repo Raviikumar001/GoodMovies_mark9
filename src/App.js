@@ -53,12 +53,13 @@ export default function App() {
     
     <div className="App">
     <div className="Navbar">
-     <h2> GoodMovies.</h2>
+     <h2> GoodMovies Recommeder.</h2>
        
     </div>
       <div className="main">
       <h1> 🎬 goodMovies </h1>
-      <p style={{ fontSize: "smaller" }}>
+      <br/>
+      <p style={{ fontSize: "large" }}>
         {" "}
         Checkout these Movies. Select a genre to get started{" "}
       </p>
@@ -69,7 +70,7 @@ export default function App() {
             onClick={() => genreClickHandler(genre)}
             style={{
               cursor: "pointer",
-              background: "#E5E7EB",
+              background: "#3DB2FF",
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
               border: "1px solid black",

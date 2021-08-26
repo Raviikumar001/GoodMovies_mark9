@@ -20,7 +20,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
-import netli from '../src/images/netfli.jpg'
+
 
 // import { faMedium } from "@fortawesome/free-brands-svg-icons";
 const bookDB = {

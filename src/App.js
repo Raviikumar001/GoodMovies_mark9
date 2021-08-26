@@ -1,7 +1,28 @@
+
 import React from "react";
 import "./App.css";
 import { useState } from "react";
+
+// font-awsome-icons
+
+import {  faMedium,faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons'
+
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+
+
+
+
+
+
+
+
 import netli from '../src/images/netfli.jpg'
+
+// import { faMedium } from "@fortawesome/free-brands-svg-icons";
 const bookDB = {
   Marvel: [
     { name: "Doctor Strange", rating: "4/5" },
@@ -36,7 +57,7 @@ const bookDB = {
     },
     {
       name:"Dolittle",
-      ratin: "3.3/5"
+      rating: "3.3/5"
     }
   ]
 };
@@ -108,13 +129,13 @@ export default function App() {
       <nav>
           <ul class="main-footer__links">
               <li class="main-footer__link">
-                  <a href="https://www.linkedin.com/in/ravi-kumar-5ab056143/">Linkedin</a>
+              <FontAwesomeIcon icon={faLinkedin} />    <a href="https://www.linkedin.com/in/ravi-kumar-5ab056143/"> Linkedin</a>
               </li>
               <li class="main-footer__link">
-                  <a href="https://github.com/Raviikumar001">Github</a>
+                <FontAwesomeIcon icon={faGithub} />  <a href="https://github.com/Raviikumar001">Github</a>
               </li>
               <li class="main-footer__link">
-                <a href="#">Medium</a>
+              <FontAwesomeIcon icon={faMedium} /> <a href="https://medium.com/@kumarraviabhi007">Medium</a>
             </li>
           </ul>
       </nav>
